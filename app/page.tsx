@@ -6,8 +6,7 @@ export default function Home() {
     <main>
       <h1>Find your next bite.</h1>
 
-      <p>Discover delicious recipes for every day.</p>
-
+<p>Discover delicious recipes for every day. 🍽️</p>
       <div className="grid">
         {recipes.map((recipe) => (
           <RecipeCard
